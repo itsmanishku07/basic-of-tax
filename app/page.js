@@ -15,7 +15,7 @@ export default function Home() {
         <h2 className="text-2xl font-semibold text-red-900">
           Module 1: 
         </h2>
-        <ul className=" flex flex-col font-serif mt-4 list-inside text-black" >
+        <ul className=" flex flex-col font-serifs mt-4 list-inside text-black" >
           <Link href="/whatistax" className="py-1">1. Intro to Tax</Link>
           <Link href="/agriculturalincome" className="py-1">3. Agricultural Income</Link>
           <Link href="/canonsoftaxation" className="py-1">2. Canons of Taxation</Link>
@@ -29,6 +29,18 @@ export default function Home() {
         </ul>
       </div>
 
+      <div className="bg-white rounded-lg shadow-lg p-4">
+        <h2 className="text-2xl font-semibold text-red-900">
+          Module 2: 
+        </h2>
+        <ul className=" flex flex-col font-serifs mt-4 list-inside text-black" >
+          <Link href="/incomefromtheheadsalaries" className="py-1">1. Income from the Head ‘Salaries’</Link>
+          <Link href="/incomefromtheheadhouseproperty" className="py-1">2. Income from the Head ‘House Property’</Link>
+          <Link href="/incomeundertheheadprofitsandgains" className="py-1">3. Income under the Head ‘Profits and Gains of Business or Profession’</Link>
+          <Link href="/incomeundertheheadcapitalgains" className="py-1">4. Income under the Head ‘Capital Gains’</Link>
+          <Link href="/incomeundertheheadincomefromothersources" className="py-1">5. Income under the Head ‘Income from other sources’</Link>
+        </ul>
+      </div>
     
     </div>
   </div>
